@@ -3,6 +3,7 @@
 <p>Return <em>the size of the longest non-empty subarray containing only </em><code>1</code><em>'s in the resulting array</em>. Return <code>0</code> if there is no such subarray.</p>
 
 <p>&nbsp;</p>
+![image alt](https://github.com/showkathjaleel/leethub/blob/beb7dcb30987687426442c5c3529dfe530392616/1493-longest-subarray-of-1s-after-deleting-one-element/longest.png) 
 <p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> nums = [1,1,0,1]
