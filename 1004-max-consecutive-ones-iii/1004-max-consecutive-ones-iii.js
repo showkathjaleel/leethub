@@ -26,36 +26,12 @@ var longestOnes = function(nums, k) {
             
         }
       maxOneCount= Math.max(maxOneCount, i - left +1)
+        //You can flip one 0 to 1, resulting in [1, 1, 1, 1].
+        //The result is i - left + 1 because the entire window is valid after flipping
     }
  
     
 return maxOneCount;   
     
 }; 
-
-// var longestOnes = function(nums, k) {
-//     let left = 0;
-//     let maxOneCount = 0;
-
-//     for (let right = 0; right < nums.length; right++) {
-//         // If the current number is 0, we "flip" it and decrement k
-//         if (nums[right] === 0) {
-//             k--;
-//         }
-
-//         // If k becomes negative, shrink the window from the left
-//         while (k < 0) {
-//             if (nums[left] === 0) {
-//                 k++;
-//             }
-//             left++;
-//         }
-
-//         // Calculate the maximum size of the window
-//         maxOneCount = Math.max(maxOneCount, right - left + 1);
-//     }
-
-//     return maxOneCount;
-// };
-
 
